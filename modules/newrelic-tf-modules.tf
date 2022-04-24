@@ -15,5 +15,5 @@ provider "newrelic" {
 
 
 module "incident-response" {
-  sorce = "../incident-response-config"
+  source = "../incident-response-config"
 }
